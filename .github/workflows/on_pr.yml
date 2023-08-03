@@ -27,4 +27,4 @@ jobs:
         with:
           python-version: '3.8'
       - name: Unit tests
-        run: AWS_ACCESS_KEY_ID=test_id python src/echo_variables.py
+        run: python src/echo_variables.py
