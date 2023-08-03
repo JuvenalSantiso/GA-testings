@@ -2,7 +2,7 @@ name: Run tests on PR
 
 on:
   pull_request:
-    branches: [ main ]
+    branches: [ master  ]
     types: [opened, synchronize, reopened, ready_for_review]
     paths-ignore:
       - '**/README.md'
