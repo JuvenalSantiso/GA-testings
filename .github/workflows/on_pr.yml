@@ -27,4 +27,4 @@ jobs:
           export AWS_ACCESS_KEY_ID=test_id
           export AWS_SECRET_ACCESS_KEY=test_pass
       - name: Unit tests
-        run: python -m src/echo_variables
+        run: python src/echo_variables
